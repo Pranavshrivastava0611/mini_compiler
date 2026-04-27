@@ -1,0 +1,21 @@
+# Build
+build/
+*.o
+*.out
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vendor binaries (keep headers tracked)
+# vendor/ is tracked since it's header-only libs
